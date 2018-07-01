@@ -21,9 +21,9 @@ get_header(); ?>
 			while ( have_posts() ) : the_post();
 
 
-				$previous_post=get_previous_post();
-				echo get_permalink(get_previous_post()->ID);
-				die();
+				//$previous_post=get_previous_post();
+				//echo get_permalink(get_previous_post()->ID);
+				//die();
 
 				get_template_part( 'template-parts/post/content', get_post_format() );
 
