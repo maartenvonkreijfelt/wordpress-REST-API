@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a30435a-9764-4442-80d2-0137e1f7e142" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen-child/JS/previous.ajax.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyseventeen-child/JS/previous.ajax.js" />
     </list>
     <ignored path="wordpress5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="previous.ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen-child/JS/previous.ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6283784">
-              <caret line="95" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3716216">
+              <caret line="100" column="38" selection-start-line="99" selection-start-column="17" selection-end-line="101" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -47,7 +48,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen-child/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.208334">
+            <state vertical-scroll-proportion="-21.708334">
               <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
               <folding />
             </state>
@@ -370,14 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen-child/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.208334">
-          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.875">
@@ -386,10 +379,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.708334">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen-child/JS/previous.ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6283784">
-          <caret line="95" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3716216">
+          <caret line="100" column="38" selection-start-line="99" selection-start-column="17" selection-end-line="101" selection-end-column="27" />
           <folding />
         </state>
       </provider>
