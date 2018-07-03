@@ -53,9 +53,7 @@
         // Create an empty container for theoretical featured image.
         var feat_image;
 
-        // Grab the data from get_ajax above,
-        // find featured image source URL,
-        // populate feat_image variable with featured image HTML output.
+        // Get the featured image if there is a featured image.
         function get_featured_image() {
             if (featured_img_ID === 0) {
                 feat_image = '';
@@ -80,6 +78,7 @@
             return feat_image;
         }
 
+        // Build the post, with or without the featured image.
         function build_post() {
             var date = new Date(object.date);
             var previous_post_content =
