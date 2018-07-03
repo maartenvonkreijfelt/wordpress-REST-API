@@ -12,6 +12,22 @@ Text Domain: twenty-seventeen-child
 
 @import url('../twentyseventeen/style.css');
 
+/* AJAX spinner for slow connections */
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+.ajax-loader {
+    display: none;
+    margin-top: 1em;
+    text-align: center;
+    padding: .7em;
+}
+
+.ajax-loader img {
+    animation: spinner .6s linear infinite;
+}
+
 /* Loading button */
 
 .load-previous {

@@ -13,15 +13,28 @@
 
     function previous_post_trigger() {
         // When the trigger is activated, do all the things.
-        $('.load-previous a').on( 'click', get_previous_post );
+        var trigger = $('.load-previous a');
+
+        var trigger_position = trigger.offset().top + 150 - $(window).outerHeight();
+
+        $(window).scroll(function(event) {
+            if (trigger_position > $(window).scrollTop()) {
+                return;
+            }
+
+            get_previous_post(trigger);
+
+            $(this).off(event);
+        })
     }
     // Run the above trigger monitor on the current DOM.
     previous_post_trigger();
 
     // The function in which all the magic happens.
-    function get_previous_post() {
+    function get_previous_post(trigger) {
+
         // Get the previous post ID from the clicked trigger above.
-        var previous_post_ID = $(this).attr('data-id');
+        var previous_post_ID = trigger.attr('data-id');
         // Build the resource request URL for the REST API.
         var json_url = rest_url + 'posts/' + previous_post_ID + '?_embed=true';
 
