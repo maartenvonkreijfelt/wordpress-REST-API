@@ -38,6 +38,8 @@
         // Build the resource request URL for the REST API.
         var json_url = rest_url + 'posts/' + previous_post_ID + '?_embed=true';
 
+        $('.ajax-loader').show();
+
         // Run AJAX on the resource request URL
         $.ajax({
             dataType: 'json',
@@ -131,6 +133,7 @@
                 '<a href="javascript:void(0)" data-id="' + object.previous_post_ID + '">' +
                 object.previous_post_title +
                 '</a>' +
+                '<div class="ajax-loader"><img src="' + theme_uri + '/JS/spinner.svg" width="32" height="32" /></div>' +
                 '</nav>';
 
             // Append related posts to the #related-posts container
